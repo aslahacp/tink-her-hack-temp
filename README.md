@@ -6,11 +6,10 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### indivitual
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+###  Members
+- Member 1:aslaha cp- pptm arts and science college
 
 ### Hosted Project Link
 [mention your project hosted link here]
