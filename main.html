@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Search Parking Location</h2>
+    <input type="text" id="search" placeholder="Search city..." onkeyup="searchLocation()">
+
+    <ul id="locationList">
+        <li onclick="selectLocation('City Center Mall')">City Center Mall</li>
+        <li onclick="selectLocation('Railway Station')">Railway Station</li>
+        <li onclick="selectLocation('Airport Parking')">Airport Parking</li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

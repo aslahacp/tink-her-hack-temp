@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button, .btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    background: #ddd;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #bbb;
+}
+
+.slot {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background: lightgreen;
+    cursor: pointer;
+}

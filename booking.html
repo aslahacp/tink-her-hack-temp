@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Booking Details</h2>
+
+    <p><b>Selected Slot:</b> <span id="slotInfo"></span></p>
+
+    <label>Number of Hours:</label>
+    <input type="number" id="hours" min="1" value="1" onchange="calculateAmount()">
+
+    <p>Total Amount: ₹<span id="amount">30</span></p>
+
+    <h3>Personal Information</h3>
+
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="address" placeholder="Address">
+    <input type="text" id="mobile" placeholder="Mobile Number">
+    <input type="text" id="vehicleNo" placeholder="Vehicle Number">
+    <input type="text" id="vehicleModel" placeholder="Vehicle Model">
+
+    <button onclick="proceedBooking()">Proceed</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
