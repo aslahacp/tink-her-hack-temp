@@ -65,6 +65,11 @@ cd tink-her-hack-temp
 start index.html
 ```
 
+#### Usage
+To test the login functionality, use the following demo credentials:
+- **Username:** `admin`
+- **Password:** `1234`
+
 ---
 
 ## Project Documentation
